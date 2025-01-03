@@ -13,9 +13,8 @@ temp fake file_chooser plugin
   s.author           = { '' => 'h@poul.at' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
-  s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '14.0'
 end
 

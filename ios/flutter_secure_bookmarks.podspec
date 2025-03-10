@@ -2,9 +2,9 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 Pod::Spec.new do |s|
-  s.name             = 'macos_secure_bookmarks'
+  s.name             = 'flutter_secure_bookmarks'
   s.version          = '0.0.1'
-  s.summary          = 'No-op implementation of macos_secure_bookmarks desktop plugin to avoid build issues on iOS'
+  s.summary          = 'iOS part of flutter_secure_bookmarks library'
   s.description      = <<-DESC
 temp fake file_chooser plugin
                        DESC

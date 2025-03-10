@@ -18,9 +18,9 @@ import 'package:file_selector/file_selector.dart';
 import 'package:flutter/foundation.dart'
     show debugDefaultTargetPlatformOverride;
 import 'package:flutter/material.dart';
+import 'package:flutter_secure_bookmarks/flutter_secure_bookmarks.dart';
 import 'package:logging/logging.dart';
 import 'package:logging_appenders/logging_appenders.dart';
-import 'package:macos_secure_bookmarks/macos_secure_bookmarks.dart';
 
 final MemoryAppender logMessages = MemoryAppender();
 final _logger = Logger('main');

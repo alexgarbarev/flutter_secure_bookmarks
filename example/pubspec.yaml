@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  macos_secure_bookmarks:
+  flutter_secure_bookmarks:
     path: ../
   file_selector: ^0.8.2
   file_selector_macos: ^0.0.4

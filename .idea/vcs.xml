@@ -2,6 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/example/macos/Flutter/ephemeral/.symlinks/plugins/macos_secure_bookmarks" vcs="Git" />
   </component>
 </project>

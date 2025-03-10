@@ -41,7 +41,7 @@ public class SecureBookmarksPlugin: NSObject, FlutterPlugin {
         return
       }
       let url = URL(fileURLWithPath: filePath)
-      print("need bookmark for \(url)")
+      // print("need bookmark for \(url)")
       // create app scope security bookmark.
       do {
         let data = try url.bookmarkData(options: .minimalBookmark, includingResourceValuesForKeys: nil, relativeTo: nil)
@@ -58,7 +58,7 @@ public class SecureBookmarksPlugin: NSObject, FlutterPlugin {
       do {
         var isStale: Bool = false
         let url = try URL(resolvingBookmarkData: bookmark, bookmarkDataIsStale: &isStale)
-        print("resolved bookmark to: \(url) (\(isStale))")
+        // print("resolved bookmark to: \(url) (\(isStale))")
         if (url.isFileURL) {
           resolvedUrls[url.path] = url
           result(url.path)
